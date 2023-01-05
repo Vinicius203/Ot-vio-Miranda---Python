@@ -4,7 +4,7 @@ sobrenome = 'Martins Freire'
 idade = 21
 ano_nascimento = 2001
 maior_de_idade = idade >= 18
-altura = 1.78
+altura = 1.79
 
 print('Nome:', nome)
 print('Sobrenome:', sobrenome)
