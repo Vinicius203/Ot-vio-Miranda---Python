@@ -1,5 +1,5 @@
 # Fatiamento de Strings
-# Fatiamento [i:f:p] [::]
+# Fatiamento [inicio:final:passo] [::]
 # Obs: a função len retorna o tamanho da str (quantidade de caracteres)
 
 # Olá mundo
