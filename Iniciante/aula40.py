@@ -19,7 +19,7 @@ while True:
 
     if numeros_validos is None:
         print('Um ou ambos os números digitados são inválidos.')
-        continue
+        continue # volta para o ínicio do while
 
     operadores_permitidos = '+-*/'
 
