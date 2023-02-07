@@ -24,16 +24,21 @@ while True:
         if(len(lista) == 0):
             print('A lista está vazia.')
         
-        for nome, indice in enumerate(lista):
-            print(nome, indice)
+        for indice, nome in enumerate(lista):
+            print(indice, nome)
 
     elif option.lower() == 'a':
-        if(len(lista) == 0):
-            print('A lista está vazia! Não há nada para apagar')
-        else:
-            indice = input('Qual indice deseja apagar? ')   
+        indice_str = input('Escolha o índice para apagar: ')
+
+        try:
+            indice = int(indice_str)
             del lista[indice]
-            
+        except ValueError:
+            print('Por favor, digite um número inteiro.')
+        except IndexError:
+            print('Esse índice não existe na lista.')
+        except Exception:
+            print('Erro desconhecido.')
     else:
         print('Por favor, escolha uma opção válida.')
 
