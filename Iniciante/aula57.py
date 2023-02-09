@@ -10,7 +10,7 @@ salas = [
     ['Luiz', 'João', 'Eduarda', (0, 10, 20, 30, 40)] , #2
 ]
 
-# print(salas[2][3][2])
+# print(salas[2][3][1])
 
 for sala in salas:
     print(f'A sala é {sala}')
