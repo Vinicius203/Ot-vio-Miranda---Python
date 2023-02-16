@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "code-runner.runInTerminal": true,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.confirmSync": false,
+    "code-runner.executorMap": {
+        "python": "clear ; python -u"
+    }
+}
